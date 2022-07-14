@@ -5,8 +5,8 @@ import com.carlos.listatareas.dto.TareaDto;
 
 
 public interface ITareaService {
-    List<TareaDto> ListarTareas();
-    TareaDto BuscarTarea(Long Id);
-    TareaDto GuardarTarea(TareaDto tareaDto);
-    void eliminarTarea();
+    List<TareaDto> listarTareas();
+    TareaDto buscarTarea(Long Id);
+    TareaDto guardarTarea(TareaDto tareaDto);
+    void eliminarTarea(Long Id);
 }
